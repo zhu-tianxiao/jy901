@@ -1,0 +1,136 @@
+[0.152s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'imu_driver']
+[0.152s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['imu_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f98c50730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f98d6a1a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f98d6a1a0>>)
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.361s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/ros2_ws'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_driver) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_driver' with type 'ros.ament_cmake' and name 'imu_driver'
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_target' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'imu_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'imu_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_ws/build/imu_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_ws/install/imu_driver', 'merge_install': False, 'path': '/home/orangepi/ros2_ws/src/imu_driver', 'symlink_install': False, 'test_result_base': None}
+[0.420s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.423s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.424s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_ws/src/imu_driver' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_ws/src/imu_driver'
+[0.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/imu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/imu_driver -- -j8 -l8
+[9.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/imu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/imu_driver -- -j8 -l8
+[9.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/imu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/imu_driver
+[9.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_driver)
+[9.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/imu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/imu_driver
+[9.541s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver' for CMake module files
+[9.544s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver' for CMake config files
+[9.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_driver', 'cmake_prefix_path')
+[9.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/hook/cmake_prefix_path.ps1'
+[9.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/hook/cmake_prefix_path.dsv'
+[9.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/hook/cmake_prefix_path.sh'
+[9.556s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/lib'
+[9.557s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/bin'
+[9.557s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/lib/pkgconfig/imu_driver.pc'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/lib/python3.10/site-packages'
+[9.568s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/bin'
+[9.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.ps1'
+[9.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.dsv'
+[9.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.sh'
+[9.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.bash'
+[9.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.zsh'
+[9.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/imu_driver/share/colcon-core/packages/imu_driver)
+[9.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_driver)
+[9.588s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver' for CMake module files
+[9.589s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver' for CMake config files
+[9.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_driver', 'cmake_prefix_path')
+[9.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/hook/cmake_prefix_path.ps1'
+[9.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/hook/cmake_prefix_path.dsv'
+[9.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/hook/cmake_prefix_path.sh'
+[9.594s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/lib'
+[9.594s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/bin'
+[9.594s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/lib/pkgconfig/imu_driver.pc'
+[9.595s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/lib/python3.10/site-packages'
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/imu_driver/bin'
+[9.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.ps1'
+[9.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.dsv'
+[9.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.sh'
+[9.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.bash'
+[9.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.zsh'
+[9.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/imu_driver/share/colcon-core/packages/imu_driver)
+[9.602s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.603s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.628s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.629s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.659s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_ws/install/local_setup.ps1'
+[9.668s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/ros2_ws/install/_local_setup_util_ps1.py'
+[9.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_ws/install/setup.ps1'
+[9.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_ws/install/local_setup.sh'
+[9.681s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/ros2_ws/install/_local_setup_util_sh.py'
+[9.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_ws/install/setup.sh'
+[9.684s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_ws/install/local_setup.bash'
+[9.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_ws/install/setup.bash'
+[9.686s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_ws/install/local_setup.zsh'
+[9.687s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_ws/install/setup.zsh'

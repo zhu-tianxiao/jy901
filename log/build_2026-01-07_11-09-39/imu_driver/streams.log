@@ -1,0 +1,35 @@
+[0.022s] Invoking command in '/home/orangepi/ros2_ws/build/imu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/imu_driver -- -j8 -l8
+[0.269s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[4.705s] [01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.705s] [01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:205:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kroll_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.706s]   205 |             double [01;35m[Kroll_deg[m[K = roll * 180.0 / M_PI;
+[4.706s]       |                    [01;35m[K^~~~~~~~[m[K
+[4.707s] [01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:206:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpitch_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.707s]   206 |             double [01;35m[Kpitch_deg[m[K = pitch * 180.0 / M_PI;
+[4.708s]       |                    [01;35m[K^~~~~~~~~[m[K
+[4.708s] [01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:207:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kyaw_deg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.708s]   207 |             double [01;35m[Kyaw_deg[m[K = yaw * 180.0 / M_PI;
+[4.709s]       |                    [01;35m[K^~~~~~~[m[K
+[7.954s] [100%] [32m[1mLinking CXX executable imu_node[0m
+[8.455s] [100%] Built target imu_node
+[8.504s] Invoked command in '/home/orangepi/ros2_ws/build/imu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/imu_driver -- -j8 -l8
+[8.551s] Invoking command in '/home/orangepi/ros2_ws/build/imu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/imu_driver
+[8.577s] -- Install configuration: ""
+[8.578s] -- Installing: /home/orangepi/ros2_ws/install/imu_driver/lib/imu_driver/imu_node
+[8.582s] -- Set runtime path of "/home/orangepi/ros2_ws/install/imu_driver/lib/imu_driver/imu_node" to ""
+[8.582s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/package_run_dependencies/imu_driver
+[8.582s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/parent_prefix_path/imu_driver
+[8.583s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/ament_prefix_path.sh
+[8.583s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/ament_prefix_path.dsv
+[8.584s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/path.sh
+[8.585s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/path.dsv
+[8.586s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.bash
+[8.589s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.sh
+[8.590s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.zsh
+[8.590s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.dsv
+[8.592s] -- Installing: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.dsv
+[8.592s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/packages/imu_driver
+[8.593s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/cmake/imu_driverConfig.cmake
+[8.594s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/cmake/imu_driverConfig-version.cmake
+[8.594s] -- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.xml
+[8.595s] Invoked command in '/home/orangepi/ros2_ws/build/imu_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/imu_driver

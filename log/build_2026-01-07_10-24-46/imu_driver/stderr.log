@@ -1,0 +1,7 @@
+[01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:78:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kax[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   78 |     short [01;35m[Kax[m[K[3], gx[3], angle[3];
+      |           [01;35m[K^~[m[K
+[01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:78:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   78 |     short ax[3], [01;35m[Kgx[m[K[3], angle[3];
+      |                  [01;35m[K^~[m[K

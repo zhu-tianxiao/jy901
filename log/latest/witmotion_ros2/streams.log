@@ -1,0 +1,30 @@
+[0.038s] Invoking command in '/home/orangepi/ros2_ws/build/witmotion_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/witmotion_ros2 -- -j8 -l8
+[0.250s] [ 33%] [32mBuilding CXX object CMakeFiles/witmotion_ros2.dir/src/witmotion_node.cpp.o[0m
+[0.261s] [ 66%] [32mBuilding CXX object CMakeFiles/witmotion_ros2.dir/src/witmotion_handler.cpp.o[0m
+[26.905s] [100%] [32m[1mLinking CXX executable witmotion_ros2[0m
+[28.766s] [100%] Built target witmotion_ros2
+[28.817s] Invoked command in '/home/orangepi/ros2_ws/build/witmotion_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/witmotion_ros2 -- -j8 -l8
+[28.863s] Invoking command in '/home/orangepi/ros2_ws/build/witmotion_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/witmotion_ros2
+[28.894s] -- Install configuration: ""
+[28.897s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/lib/witmotion_ros2/witmotion_ros2
+[28.913s] -- Set runtime path of "/home/orangepi/ros2_ws/install/witmotion_ros2/lib/witmotion_ros2/witmotion_ros2" to ""
+[28.913s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/launch
+[28.913s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/launch/witmotion.launch.py
+[28.914s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/config
+[28.914s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/config/witmotion.yaml
+[28.915s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/package_run_dependencies/witmotion_ros2
+[28.916s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/parent_prefix_path/witmotion_ros2
+[28.918s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/ament_prefix_path.sh
+[28.919s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/ament_prefix_path.dsv
+[28.919s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/path.sh
+[28.921s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/path.dsv
+[28.922s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.bash
+[28.923s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.sh
+[28.924s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.zsh
+[28.925s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.dsv
+[28.926s] -- Up-to-date: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/package.dsv
+[28.927s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/packages/witmotion_ros2
+[28.928s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/cmake/witmotion_ros2Config.cmake
+[28.929s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/cmake/witmotion_ros2Config-version.cmake
+[28.930s] -- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/package.xml
+[28.937s] Invoked command in '/home/orangepi/ros2_ws/build/witmotion_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/witmotion_ros2

@@ -1,0 +1,26 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/witmotion_ros2.dir/src/witmotion_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/witmotion_ros2.dir/src/witmotion_handler.cpp.o[0m
+[100%] [32m[1mLinking CXX executable witmotion_ros2[0m
+[100%] Built target witmotion_ros2
+-- Install configuration: ""
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/lib/witmotion_ros2/witmotion_ros2
+-- Set runtime path of "/home/zhu/ros2_ws/install/witmotion_ros2/lib/witmotion_ros2/witmotion_ros2" to ""
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/launch
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/launch/witmotion.launch.py
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/config
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/config/witmotion.yaml
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/package_run_dependencies/witmotion_ros2
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/parent_prefix_path/witmotion_ros2
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/path.sh
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/path.dsv
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.bash
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.sh
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.zsh
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.dsv
+-- Up-to-date: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/package.dsv
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/packages/witmotion_ros2
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/cmake/witmotion_ros2Config.cmake
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/cmake/witmotion_ros2Config-version.cmake
+-- Installing: /home/zhu/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/package.xml

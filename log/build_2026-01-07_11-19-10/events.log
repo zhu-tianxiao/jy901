@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (imu_driver) JobQueued: {'identifier': 'imu_driver', 'dependencies': OrderedDict()}
+[0.001106] (imu_driver) JobStarted: {'identifier': 'imu_driver'}
+[0.019118] (imu_driver) JobProgress: {'identifier': 'imu_driver', 'progress': 'cmake'}
+[0.019810] (imu_driver) JobProgress: {'identifier': 'imu_driver', 'progress': 'build'}
+[0.021284] (imu_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/ros2_ws/build/imu_driver', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/ros2_ws/build/imu_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '10.255.0.220 60699 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a44ca048-9139-4c20-9963-2c5ac742fa08.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orangepi/ros2_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '5'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f4cb1b7bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/ros2_ws/install/imu_driver:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/ros2_ws/build/imu_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.255.0.220 60699 10.255.0.188 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/ros2_ws/install/imu_driver:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.099216] (-) TimerEvent: {}
+[0.200126] (-) TimerEvent: {}
+[0.230820] (imu_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o\x1b[0m\n'}
+[0.300353] (-) TimerEvent: {}
+[0.401367] (-) TimerEvent: {}
+[0.502460] (-) TimerEvent: {}
+[0.603448] (-) TimerEvent: {}
+[0.704267] (-) TimerEvent: {}
+[0.805368] (-) TimerEvent: {}
+[0.906619] (-) TimerEvent: {}
+[1.007834] (-) TimerEvent: {}
+[1.108926] (-) TimerEvent: {}
+[1.210281] (-) TimerEvent: {}
+[1.311579] (-) TimerEvent: {}
+[1.412826] (-) TimerEvent: {}
+[1.513972] (-) TimerEvent: {}
+[1.615089] (-) TimerEvent: {}
+[1.716412] (-) TimerEvent: {}
+[1.817765] (-) TimerEvent: {}
+[1.919091] (-) TimerEvent: {}
+[2.020368] (-) TimerEvent: {}
+[2.121580] (-) TimerEvent: {}
+[2.222911] (-) TimerEvent: {}
+[2.324235] (-) TimerEvent: {}
+[2.425446] (-) TimerEvent: {}
+[2.526626] (-) TimerEvent: {}
+[2.628059] (-) TimerEvent: {}
+[2.729361] (-) TimerEvent: {}
+[2.830659] (-) TimerEvent: {}
+[2.931993] (-) TimerEvent: {}
+[3.033261] (-) TimerEvent: {}
+[3.134594] (-) TimerEvent: {}
+[3.235868] (-) TimerEvent: {}
+[3.337050] (-) TimerEvent: {}
+[3.438021] (-) TimerEvent: {}
+[3.539186] (-) TimerEvent: {}
+[3.640220] (-) TimerEvent: {}
+[3.741694] (-) TimerEvent: {}
+[3.842967] (-) TimerEvent: {}
+[3.944373] (-) TimerEvent: {}
+[4.045747] (-) TimerEvent: {}
+[4.147092] (-) TimerEvent: {}
+[4.248397] (-) TimerEvent: {}
+[4.349841] (-) TimerEvent: {}
+[4.451357] (-) TimerEvent: {}
+[4.480635] (imu_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.481711] (imu_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:205:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kroll_deg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.482134] (imu_driver) StderrLine: {'line': b'  205 |             double \x1b[01;35m\x1b[Kroll_deg\x1b[m\x1b[K = roll * 180.0 / M_PI;\n'}
+[4.482508] (imu_driver) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.482880] (imu_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:206:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpitch_deg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.483259] (imu_driver) StderrLine: {'line': b'  206 |             double \x1b[01;35m\x1b[Kpitch_deg\x1b[m\x1b[K = pitch * 180.0 / M_PI;\n'}
+[4.483631] (imu_driver) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.484031] (imu_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:207:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kyaw_deg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.484469] (imu_driver) StderrLine: {'line': b'  207 |             double \x1b[01;35m\x1b[Kyaw_deg\x1b[m\x1b[K = yaw * 180.0 / M_PI;\n'}
+[4.484839] (imu_driver) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.551767] (-) TimerEvent: {}
+[4.653228] (-) TimerEvent: {}
+[4.754853] (-) TimerEvent: {}
+[4.856346] (-) TimerEvent: {}
+[4.957915] (-) TimerEvent: {}
+[5.059415] (-) TimerEvent: {}
+[5.160931] (-) TimerEvent: {}
+[5.262298] (-) TimerEvent: {}
+[5.363773] (-) TimerEvent: {}
+[5.465257] (-) TimerEvent: {}
+[5.566623] (-) TimerEvent: {}
+[5.668049] (-) TimerEvent: {}
+[5.769384] (-) TimerEvent: {}
+[5.870832] (-) TimerEvent: {}
+[5.972260] (-) TimerEvent: {}
+[6.073667] (-) TimerEvent: {}
+[6.174978] (-) TimerEvent: {}
+[6.276299] (-) TimerEvent: {}
+[6.377695] (-) TimerEvent: {}
+[6.479077] (-) TimerEvent: {}
+[6.580535] (-) TimerEvent: {}
+[6.681932] (-) TimerEvent: {}
+[6.783438] (-) TimerEvent: {}
+[6.884924] (-) TimerEvent: {}
+[6.986447] (-) TimerEvent: {}
+[7.087987] (-) TimerEvent: {}
+[7.189447] (-) TimerEvent: {}
+[7.290746] (-) TimerEvent: {}
+[7.392035] (-) TimerEvent: {}
+[7.493339] (-) TimerEvent: {}
+[7.594717] (-) TimerEvent: {}
+[7.681182] (imu_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_node\x1b[0m\n'}
+[7.694846] (-) TimerEvent: {}
+[7.796058] (-) TimerEvent: {}
+[7.897554] (-) TimerEvent: {}
+[7.998923] (-) TimerEvent: {}
+[8.100202] (-) TimerEvent: {}
+[8.185594] (imu_driver) StdoutLine: {'line': b'[100%] Built target imu_node\n'}
+[8.200678] (-) TimerEvent: {}
+[8.241300] (imu_driver) CommandEnded: {'returncode': 0}
+[8.244461] (imu_driver) JobProgress: {'identifier': 'imu_driver', 'progress': 'install'}
+[8.284635] (imu_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/ros2_ws/build/imu_driver'], 'cwd': '/home/orangepi/ros2_ws/build/imu_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '10.255.0.220 60699 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a44ca048-9139-4c20-9963-2c5ac742fa08.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orangepi/ros2_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '5'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f4cb1b7bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/ros2_ws/install/imu_driver:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/ros2_ws/build/imu_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.255.0.220 60699 10.255.0.188 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/ros2_ws/install/imu_driver:/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[8.300901] (-) TimerEvent: {}
+[8.313277] (imu_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.314564] (imu_driver) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/imu_driver/lib/imu_driver/imu_node\n'}
+[8.327953] (imu_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/ros2_ws/install/imu_driver/lib/imu_driver/imu_node" to ""\n'}
+[8.328917] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/package_run_dependencies/imu_driver\n'}
+[8.329391] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/parent_prefix_path/imu_driver\n'}
+[8.329821] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/ament_prefix_path.sh\n'}
+[8.330233] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/ament_prefix_path.dsv\n'}
+[8.330684] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/path.sh\n'}
+[8.331094] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/path.dsv\n'}
+[8.331501] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.bash\n'}
+[8.331918] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.sh\n'}
+[8.332305] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.zsh\n'}
+[8.332693] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.dsv\n'}
+[8.333081] (imu_driver) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.dsv\n'}
+[8.333465] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/packages/imu_driver\n'}
+[8.333866] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/cmake/imu_driverConfig.cmake\n'}
+[8.334263] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/cmake/imu_driverConfig-version.cmake\n'}
+[8.334640] (imu_driver) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.xml\n'}
+[8.338774] (imu_driver) CommandEnded: {'returncode': 0}
+[8.401111] (-) TimerEvent: {}
+[8.413176] (imu_driver) JobEnded: {'identifier': 'imu_driver', 'rc': 0}
+[8.415501] (-) EventReactorShutdown: {}

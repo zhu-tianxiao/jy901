@@ -1,0 +1,13 @@
+[01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:135:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll_deg[m[K’ was not declared in this scope
+  135 |                       << "Roll=" << [01;31m[Kroll_deg[m[K
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:136:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kpitch_deg[m[K’ was not declared in this scope
+  136 |                       << "  Pitch=" << [01;31m[Kpitch_deg[m[K
+      |                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:137:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw_deg[m[K’ was not declared in this scope
+  137 |                       << "  Yaw=" << [01;31m[Kyaw_deg[m[K
+      |                                      [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:76: CMakeFiles/imu_node.dir/src/imu_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

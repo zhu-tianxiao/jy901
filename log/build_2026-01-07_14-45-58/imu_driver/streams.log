@@ -1,0 +1,12 @@
+[0.020s] Invoking command in '/home/orangepi/ros2_ws/build/imu_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/imu_driver -- -j8 -l8
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[0.232s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[4.614s] [01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.615s] [01m[K/home/orangepi/ros2_ws/src/imu_driver/src/imu_node.cpp:119:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2_msgs[m[K’?
+[4.615s]   119 |                 [01;31m[Ktf_msg[m[K.header.stamp = now;
+[4.615s]       |                 [01;31m[K^~~~~~[m[K
+[4.616s]       |                 [32m[Ktf2_msgs[m[K
+[6.171s] gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:76: CMakeFiles/imu_node.dir/src/imu_node.cpp.o] Error 1
+[6.171s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/imu_node.dir/all] Error 2
+[6.173s] gmake: *** [Makefile:146: all] Error 2
+[6.178s] Invoked command in '/home/orangepi/ros2_ws/build/imu_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/imu_driver -- -j8 -l8

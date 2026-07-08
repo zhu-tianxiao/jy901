@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000623] (witmotion_ros2) JobQueued: {'identifier': 'witmotion_ros2', 'dependencies': OrderedDict()}
+[0.000904] (witmotion_ros2) JobStarted: {'identifier': 'witmotion_ros2'}
+[0.031117] (witmotion_ros2) JobProgress: {'identifier': 'witmotion_ros2', 'progress': 'cmake'}
+[0.033834] (witmotion_ros2) JobProgress: {'identifier': 'witmotion_ros2', 'progress': 'build'}
+[0.034255] (witmotion_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/ros2_ws/build/witmotion_ros2', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/ros2_ws/build/witmotion_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '10.255.0.220 55877 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a17e6092-f432-4638-9ba4-af77f9f2b301.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orangepi/ros2_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f4cb1b7bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/ros2_ws/install/imu_driver:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/ros2_ws/build/witmotion_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.255.0.220 55877 10.255.0.188 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/ros2_ws/install/imu_driver::/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[0.098305] (-) TimerEvent: {}
+[0.199599] (-) TimerEvent: {}
+[0.250022] (witmotion_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/witmotion_ros2.dir/src/witmotion_node.cpp.o\x1b[0m\n'}
+[0.261127] (witmotion_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/witmotion_ros2.dir/src/witmotion_handler.cpp.o\x1b[0m\n'}
+[0.299837] (-) TimerEvent: {}
+[0.400576] (-) TimerEvent: {}
+[0.501836] (-) TimerEvent: {}
+[0.603219] (-) TimerEvent: {}
+[0.704567] (-) TimerEvent: {}
+[0.806059] (-) TimerEvent: {}
+[0.907453] (-) TimerEvent: {}
+[1.008871] (-) TimerEvent: {}
+[1.110320] (-) TimerEvent: {}
+[1.211663] (-) TimerEvent: {}
+[1.313052] (-) TimerEvent: {}
+[1.414521] (-) TimerEvent: {}
+[1.515992] (-) TimerEvent: {}
+[1.617514] (-) TimerEvent: {}
+[1.718998] (-) TimerEvent: {}
+[1.820434] (-) TimerEvent: {}
+[1.921929] (-) TimerEvent: {}
+[2.023426] (-) TimerEvent: {}
+[2.125134] (-) TimerEvent: {}
+[2.226680] (-) TimerEvent: {}
+[2.328252] (-) TimerEvent: {}
+[2.429776] (-) TimerEvent: {}
+[2.531349] (-) TimerEvent: {}
+[2.632829] (-) TimerEvent: {}
+[2.734393] (-) TimerEvent: {}
+[2.835784] (-) TimerEvent: {}
+[2.937226] (-) TimerEvent: {}
+[3.038747] (-) TimerEvent: {}
+[3.140258] (-) TimerEvent: {}
+[3.241872] (-) TimerEvent: {}
+[3.343398] (-) TimerEvent: {}
+[3.444985] (-) TimerEvent: {}
+[3.546486] (-) TimerEvent: {}
+[3.648018] (-) TimerEvent: {}
+[3.749536] (-) TimerEvent: {}
+[3.851108] (-) TimerEvent: {}
+[3.952721] (-) TimerEvent: {}
+[4.054237] (-) TimerEvent: {}
+[4.155860] (-) TimerEvent: {}
+[4.257408] (-) TimerEvent: {}
+[4.359123] (-) TimerEvent: {}
+[4.460656] (-) TimerEvent: {}
+[4.562290] (-) TimerEvent: {}
+[4.663748] (-) TimerEvent: {}
+[4.765149] (-) TimerEvent: {}
+[4.866524] (-) TimerEvent: {}
+[4.967942] (-) TimerEvent: {}
+[5.069369] (-) TimerEvent: {}
+[5.170792] (-) TimerEvent: {}
+[5.272172] (-) TimerEvent: {}
+[5.373601] (-) TimerEvent: {}
+[5.475053] (-) TimerEvent: {}
+[5.576538] (-) TimerEvent: {}
+[5.677974] (-) TimerEvent: {}
+[5.779454] (-) TimerEvent: {}
+[5.880877] (-) TimerEvent: {}
+[5.982306] (-) TimerEvent: {}
+[6.083696] (-) TimerEvent: {}
+[6.185195] (-) TimerEvent: {}
+[6.286611] (-) TimerEvent: {}
+[6.388100] (-) TimerEvent: {}
+[6.489572] (-) TimerEvent: {}
+[6.591046] (-) TimerEvent: {}
+[6.692609] (-) TimerEvent: {}
+[6.794029] (-) TimerEvent: {}
+[6.895394] (-) TimerEvent: {}
+[6.996660] (-) TimerEvent: {}
+[7.098076] (-) TimerEvent: {}
+[7.199579] (-) TimerEvent: {}
+[7.300983] (-) TimerEvent: {}
+[7.402477] (-) TimerEvent: {}
+[7.503920] (-) TimerEvent: {}
+[7.605308] (-) TimerEvent: {}
+[7.706668] (-) TimerEvent: {}
+[7.808010] (-) TimerEvent: {}
+[7.909327] (-) TimerEvent: {}
+[8.010757] (-) TimerEvent: {}
+[8.112160] (-) TimerEvent: {}
+[8.213548] (-) TimerEvent: {}
+[8.314907] (-) TimerEvent: {}
+[8.416269] (-) TimerEvent: {}
+[8.517598] (-) TimerEvent: {}
+[8.618987] (-) TimerEvent: {}
+[8.720372] (-) TimerEvent: {}
+[8.821733] (-) TimerEvent: {}
+[8.923018] (-) TimerEvent: {}
+[9.024593] (-) TimerEvent: {}
+[9.125936] (-) TimerEvent: {}
+[9.227384] (-) TimerEvent: {}
+[9.328802] (-) TimerEvent: {}
+[9.430113] (-) TimerEvent: {}
+[9.531330] (-) TimerEvent: {}
+[9.632718] (-) TimerEvent: {}
+[9.734029] (-) TimerEvent: {}
+[9.835405] (-) TimerEvent: {}
+[9.936693] (-) TimerEvent: {}
+[10.038004] (-) TimerEvent: {}
+[10.139365] (-) TimerEvent: {}
+[10.240736] (-) TimerEvent: {}
+[10.342105] (-) TimerEvent: {}
+[10.443424] (-) TimerEvent: {}
+[10.544740] (-) TimerEvent: {}
+[10.646131] (-) TimerEvent: {}
+[10.747519] (-) TimerEvent: {}
+[10.848873] (-) TimerEvent: {}
+[10.950228] (-) TimerEvent: {}
+[11.051674] (-) TimerEvent: {}
+[11.153056] (-) TimerEvent: {}
+[11.254536] (-) TimerEvent: {}
+[11.355885] (-) TimerEvent: {}
+[11.457291] (-) TimerEvent: {}
+[11.558733] (-) TimerEvent: {}
+[11.660137] (-) TimerEvent: {}
+[11.761550] (-) TimerEvent: {}
+[11.862961] (-) TimerEvent: {}
+[11.964279] (-) TimerEvent: {}
+[12.065612] (-) TimerEvent: {}
+[12.167006] (-) TimerEvent: {}
+[12.268385] (-) TimerEvent: {}
+[12.369794] (-) TimerEvent: {}
+[12.471191] (-) TimerEvent: {}
+[12.572533] (-) TimerEvent: {}
+[12.673885] (-) TimerEvent: {}
+[12.775251] (-) TimerEvent: {}
+[12.876587] (-) TimerEvent: {}
+[12.977935] (-) TimerEvent: {}
+[13.079271] (-) TimerEvent: {}
+[13.180710] (-) TimerEvent: {}
+[13.281944] (-) TimerEvent: {}
+[13.383229] (-) TimerEvent: {}
+[13.484600] (-) TimerEvent: {}
+[13.585841] (-) TimerEvent: {}
+[13.687166] (-) TimerEvent: {}
+[13.788491] (-) TimerEvent: {}
+[13.889821] (-) TimerEvent: {}
+[13.991193] (-) TimerEvent: {}
+[14.092596] (-) TimerEvent: {}
+[14.194144] (-) TimerEvent: {}
+[14.295984] (-) TimerEvent: {}
+[14.397448] (-) TimerEvent: {}
+[14.498873] (-) TimerEvent: {}
+[14.600211] (-) TimerEvent: {}
+[14.701618] (-) TimerEvent: {}
+[14.802963] (-) TimerEvent: {}
+[14.904297] (-) TimerEvent: {}
+[15.005589] (-) TimerEvent: {}
+[15.106913] (-) TimerEvent: {}
+[15.208216] (-) TimerEvent: {}
+[15.309568] (-) TimerEvent: {}
+[15.410871] (-) TimerEvent: {}
+[15.512206] (-) TimerEvent: {}
+[15.613516] (-) TimerEvent: {}
+[15.714862] (-) TimerEvent: {}
+[15.816190] (-) TimerEvent: {}
+[15.917496] (-) TimerEvent: {}
+[16.018934] (-) TimerEvent: {}
+[16.120266] (-) TimerEvent: {}
+[16.221652] (-) TimerEvent: {}
+[16.323017] (-) TimerEvent: {}
+[16.424415] (-) TimerEvent: {}
+[16.525766] (-) TimerEvent: {}
+[16.627131] (-) TimerEvent: {}
+[16.728425] (-) TimerEvent: {}
+[16.829741] (-) TimerEvent: {}
+[16.931039] (-) TimerEvent: {}
+[17.032280] (-) TimerEvent: {}
+[17.133597] (-) TimerEvent: {}
+[17.235023] (-) TimerEvent: {}
+[17.336321] (-) TimerEvent: {}
+[17.437646] (-) TimerEvent: {}
+[17.539091] (-) TimerEvent: {}
+[17.640484] (-) TimerEvent: {}
+[17.741710] (-) TimerEvent: {}
+[17.842957] (-) TimerEvent: {}
+[17.944213] (-) TimerEvent: {}
+[18.045361] (-) TimerEvent: {}
+[18.146056] (-) TimerEvent: {}
+[18.246705] (-) TimerEvent: {}
+[18.347340] (-) TimerEvent: {}
+[18.447989] (-) TimerEvent: {}
+[18.548615] (-) TimerEvent: {}
+[18.649256] (-) TimerEvent: {}
+[18.749887] (-) TimerEvent: {}
+[18.850526] (-) TimerEvent: {}
+[18.951162] (-) TimerEvent: {}
+[19.051800] (-) TimerEvent: {}
+[19.152437] (-) TimerEvent: {}
+[19.253076] (-) TimerEvent: {}
+[19.353718] (-) TimerEvent: {}
+[19.454379] (-) TimerEvent: {}
+[19.555040] (-) TimerEvent: {}
+[19.655737] (-) TimerEvent: {}
+[19.756374] (-) TimerEvent: {}
+[19.857022] (-) TimerEvent: {}
+[19.957637] (-) TimerEvent: {}
+[20.058263] (-) TimerEvent: {}
+[20.158863] (-) TimerEvent: {}
+[20.259477] (-) TimerEvent: {}
+[20.360118] (-) TimerEvent: {}
+[20.460723] (-) TimerEvent: {}
+[20.561321] (-) TimerEvent: {}
+[20.661904] (-) TimerEvent: {}
+[20.762489] (-) TimerEvent: {}
+[20.863098] (-) TimerEvent: {}
+[20.963740] (-) TimerEvent: {}
+[21.064361] (-) TimerEvent: {}
+[21.164909] (-) TimerEvent: {}
+[21.265457] (-) TimerEvent: {}
+[21.366011] (-) TimerEvent: {}
+[21.466598] (-) TimerEvent: {}
+[21.567204] (-) TimerEvent: {}
+[21.667850] (-) TimerEvent: {}
+[21.768463] (-) TimerEvent: {}
+[21.869119] (-) TimerEvent: {}
+[21.969723] (-) TimerEvent: {}
+[22.070316] (-) TimerEvent: {}
+[22.170943] (-) TimerEvent: {}
+[22.271570] (-) TimerEvent: {}
+[22.372119] (-) TimerEvent: {}
+[22.472626] (-) TimerEvent: {}
+[22.573155] (-) TimerEvent: {}
+[22.673805] (-) TimerEvent: {}
+[22.774471] (-) TimerEvent: {}
+[22.875125] (-) TimerEvent: {}
+[22.975785] (-) TimerEvent: {}
+[23.076434] (-) TimerEvent: {}
+[23.177087] (-) TimerEvent: {}
+[23.277755] (-) TimerEvent: {}
+[23.378407] (-) TimerEvent: {}
+[23.479073] (-) TimerEvent: {}
+[23.579720] (-) TimerEvent: {}
+[23.680374] (-) TimerEvent: {}
+[23.781045] (-) TimerEvent: {}
+[23.881701] (-) TimerEvent: {}
+[23.982354] (-) TimerEvent: {}
+[24.083010] (-) TimerEvent: {}
+[24.183687] (-) TimerEvent: {}
+[24.284390] (-) TimerEvent: {}
+[24.385129] (-) TimerEvent: {}
+[24.485910] (-) TimerEvent: {}
+[24.586841] (-) TimerEvent: {}
+[24.688123] (-) TimerEvent: {}
+[24.789316] (-) TimerEvent: {}
+[24.890453] (-) TimerEvent: {}
+[24.991565] (-) TimerEvent: {}
+[25.092785] (-) TimerEvent: {}
+[25.193983] (-) TimerEvent: {}
+[25.295124] (-) TimerEvent: {}
+[25.396342] (-) TimerEvent: {}
+[25.497648] (-) TimerEvent: {}
+[25.598886] (-) TimerEvent: {}
+[25.700093] (-) TimerEvent: {}
+[25.801299] (-) TimerEvent: {}
+[25.902367] (-) TimerEvent: {}
+[26.003723] (-) TimerEvent: {}
+[26.105104] (-) TimerEvent: {}
+[26.206421] (-) TimerEvent: {}
+[26.307805] (-) TimerEvent: {}
+[26.409196] (-) TimerEvent: {}
+[26.510582] (-) TimerEvent: {}
+[26.611926] (-) TimerEvent: {}
+[26.713192] (-) TimerEvent: {}
+[26.814546] (-) TimerEvent: {}
+[26.905578] (witmotion_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable witmotion_ros2\x1b[0m\n'}
+[26.914802] (-) TimerEvent: {}
+[27.015542] (-) TimerEvent: {}
+[27.116234] (-) TimerEvent: {}
+[27.216978] (-) TimerEvent: {}
+[27.318339] (-) TimerEvent: {}
+[27.419651] (-) TimerEvent: {}
+[27.521310] (-) TimerEvent: {}
+[27.622770] (-) TimerEvent: {}
+[27.724113] (-) TimerEvent: {}
+[27.825115] (-) TimerEvent: {}
+[27.926346] (-) TimerEvent: {}
+[28.027649] (-) TimerEvent: {}
+[28.129104] (-) TimerEvent: {}
+[28.230484] (-) TimerEvent: {}
+[28.331849] (-) TimerEvent: {}
+[28.433185] (-) TimerEvent: {}
+[28.534575] (-) TimerEvent: {}
+[28.635812] (-) TimerEvent: {}
+[28.737238] (-) TimerEvent: {}
+[28.766619] (witmotion_ros2) StdoutLine: {'line': b'[100%] Built target witmotion_ros2\n'}
+[28.816308] (witmotion_ros2) CommandEnded: {'returncode': 0}
+[28.819626] (witmotion_ros2) JobProgress: {'identifier': 'witmotion_ros2', 'progress': 'install'}
+[28.837398] (-) TimerEvent: {}
+[28.862677] (witmotion_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/ros2_ws/build/witmotion_ros2'], 'cwd': '/home/orangepi/ros2_ws/build/witmotion_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('UMS_MOUNTPOINT', '/mnt/ums'), ('GST_V4L2_PREFERRED_FOURCC', 'NV12:YU12:NV16:YUY2'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '10.255.0.220 55877 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('USB_FUNCS', 'adb'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/home/orangepi'), ('TERM_PROGRAM_VERSION', '1.85.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a17e6092-f432-4638-9ba4-af77f9f2b301.sock'), ('GST_INSPECT_NO_COLORS', '1'), ('GST_MPP_NO_RGA', '1'), ('ROS_PYTHON_VERSION', '3'), ('COGL_DRIVER', 'gles2'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/orangepi/ros2_ws/install'), ('GST_V4L2SRC_MAX_RESOLUTION', '3840x2160'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GST_GL_API', 'gles2'), ('XDG_SESSION_ID', '9'), ('GST_VIDEO_CONVERT_PREFERRED_FORMAT', 'NV12:NV16:I420:YUY2'), ('GST_V4L2SRC_RK_DEVICES', '_mainpath:_selfpath:_bypass:_scale'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GST_GL_PLATFORM', 'egl'), ('GST_DEBUG_NO_COLOR', '1'), ('GST_V4L2SRC_DEFAULT_DEVICE', '/dev/video-camera0'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f4cb1b7bcd.sock'), ('TERM_PROGRAM', 'vscode'), ('GST_V4L2_USE_LIBV4L2', '1'), ('UMS_SIZE', '256M'), ('AMENT_PREFIX_PATH', '/home/orangepi/ros2_ws/install/imu_driver:/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('UMS_RO', '0'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('UMS_FSTYPE', 'vfat'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/ros2_ws/build/witmotion_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.255.0.220 55877 10.255.0.188 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('UMS_MOUNT', '0'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orangepi/ros2_ws/install/imu_driver::/opt/ros/humble'), ('UMS_FILE', '/userdata/ums_shared.img')]), 'shell': False}
+[28.893946] (witmotion_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.897088] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/lib/witmotion_ros2/witmotion_ros2\n'}
+[28.913403] (witmotion_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/ros2_ws/install/witmotion_ros2/lib/witmotion_ros2/witmotion_ros2" to ""\n'}
+[28.913745] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/launch\n'}
+[28.914067] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/launch/witmotion.launch.py\n'}
+[28.914589] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/config\n'}
+[28.914897] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/config/witmotion.yaml\n'}
+[28.915406] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/package_run_dependencies/witmotion_ros2\n'}
+[28.916922] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/parent_prefix_path/witmotion_ros2\n'}
+[28.918218] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/ament_prefix_path.sh\n'}
+[28.919191] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/ament_prefix_path.dsv\n'}
+[28.920052] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/path.sh\n'}
+[28.921232] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/environment/path.dsv\n'}
+[28.922344] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.bash\n'}
+[28.923349] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.sh\n'}
+[28.924493] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.zsh\n'}
+[28.925639] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/local_setup.dsv\n'}
+[28.926759] (witmotion_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/package.dsv\n'}
+[28.927254] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/ament_index/resource_index/packages/witmotion_ros2\n'}
+[28.928407] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/cmake/witmotion_ros2Config.cmake\n'}
+[28.929255] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/cmake/witmotion_ros2Config-version.cmake\n'}
+[28.930253] (witmotion_ros2) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/witmotion_ros2/share/witmotion_ros2/package.xml\n'}
+[28.936482] (witmotion_ros2) CommandEnded: {'returncode': 0}
+[28.939279] (-) TimerEvent: {}
+[29.008225] (witmotion_ros2) JobEnded: {'identifier': 'witmotion_ros2', 'rc': 0}
+[29.010422] (-) EventReactorShutdown: {}

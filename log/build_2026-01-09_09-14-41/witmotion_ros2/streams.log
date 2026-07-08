@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/zhu/ros2_ws/build/witmotion_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhu/ros2_ws/src/jy901_for_ros2-main -DCMAKE_INSTALL_PREFIX=/home/zhu/ros2_ws/install/witmotion_ros2
+[0.338s] -- The C compiler identification is GNU 11.4.0
+[0.568s] -- The CXX compiler identification is GNU 11.4.0
+[0.946s] -- Detecting C compiler ABI info
+[1.290s] -- Detecting C compiler ABI info - done
+[1.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.294s] -- Detecting C compile features
+[1.295s] -- Detecting C compile features - done
+[1.297s] -- Detecting CXX compiler ABI info
+[1.372s] -- Detecting CXX compiler ABI info - done
+[1.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.376s] -- Detecting CXX compile features
+[1.376s] -- Detecting CXX compile features - done
+[1.379s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.461s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.526s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.610s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.614s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.620s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.677s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.679s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.825s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.831s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.530s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.537s] -- Looking for pthread.h
+[5.612s] -- Looking for pthread.h - found
+[5.612s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.684s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.684s] -- Found Threads: TRUE  
+[5.725s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.749s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[5.764s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[5.803s] -- Configuring done
+[5.809s] -- Generating done
+[5.811s] -- Build files have been written to: /home/zhu/ros2_ws/build/witmotion_ros2
+[5.817s] Invoked command in '/home/zhu/ros2_ws/build/witmotion_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zhu/ros2_ws/src/jy901_for_ros2-main -DCMAKE_INSTALL_PREFIX=/home/zhu/ros2_ws/install/witmotion_ros2
+[5.818s] Invoking command in '/home/zhu/ros2_ws/build/witmotion_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhu/ros2_ws/build/witmotion_ros2 -- -j24 -l24
+[5.843s] [ 33%] [32mBuilding CXX object CMakeFiles/witmotion_ros2.dir/src/witmotion_node.cpp.o[0m
+[5.843s] [ 66%] [32mBuilding CXX object CMakeFiles/witmotion_ros2.dir/src/witmotion_handler.cpp.o[0m
+[6.049s] In file included from [01m[K/home/zhu/ros2_ws/src/jy901_for_ros2-main/src/witmotion_handler.cpp:1[m[K:
+[6.049s] [01m[K/home/zhu/ros2_ws/src/jy901_for_ros2-main/include/witmotion_ros2/witmotion_handler.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[6.049s]     6 | #include [01;31m[K<asio.hpp>[m[K
+[6.049s]       |          [01;31m[K^~~~~~~~~~[m[K
+[6.049s] compilation terminated.
+[6.050s] gmake[2]: *** [CMakeFiles/witmotion_ros2.dir/build.make:90: CMakeFiles/witmotion_ros2.dir/src/witmotion_handler.cpp.o] Error 1
+[6.051s] gmake[2]: *** Waiting for unfinished jobs....
+[6.064s] In file included from [01m[K/home/zhu/ros2_ws/src/jy901_for_ros2-main/src/witmotion_node.cpp:1[m[K:
+[6.064s] [01m[K/home/zhu/ros2_ws/src/jy901_for_ros2-main/include/witmotion_ros2/witmotion_node.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kasio.hpp: No such file or directory
+[6.064s]    19 | #include [01;31m[K<asio.hpp>[m[K
+[6.064s]       |          [01;31m[K^~~~~~~~~~[m[K
+[6.064s] compilation terminated.
+[6.066s] gmake[2]: *** [CMakeFiles/witmotion_ros2.dir/build.make:76: CMakeFiles/witmotion_ros2.dir/src/witmotion_node.cpp.o] Error 1
+[6.066s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/witmotion_ros2.dir/all] Error 2
+[6.066s] gmake: *** [Makefile:146: all] Error 2
+[6.068s] Invoked command in '/home/zhu/ros2_ws/build/witmotion_ros2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhu/ros2_ws/build/witmotion_ros2 -- -j24 -l24

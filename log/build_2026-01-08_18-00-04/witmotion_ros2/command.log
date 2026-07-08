@@ -1,0 +1,4 @@
+Invoking command in '/home/orangepi/ros2_ws/build/witmotion_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/ros2_ws/src/jy901_for_ros2-main -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_ws/install/witmotion_ros2
+Invoked command in '/home/orangepi/ros2_ws/build/witmotion_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/orangepi/ros2_ws/src/jy901_for_ros2-main -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_ws/install/witmotion_ros2
+Invoking command in '/home/orangepi/ros2_ws/build/witmotion_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/witmotion_ros2 -- -j8 -l8
+Invoked command in '/home/orangepi/ros2_ws/build/witmotion_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/witmotion_ros2 -- -j8 -l8

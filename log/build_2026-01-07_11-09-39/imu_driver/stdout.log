@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu_node[0m
+[100%] Built target imu_node
+-- Install configuration: ""
+-- Installing: /home/orangepi/ros2_ws/install/imu_driver/lib/imu_driver/imu_node
+-- Set runtime path of "/home/orangepi/ros2_ws/install/imu_driver/lib/imu_driver/imu_node" to ""
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/package_run_dependencies/imu_driver
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/parent_prefix_path/imu_driver
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/path.sh
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/environment/path.dsv
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.bash
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.sh
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.zsh
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/local_setup.dsv
+-- Installing: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.dsv
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/ament_index/resource_index/packages/imu_driver
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/cmake/imu_driverConfig.cmake
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/cmake/imu_driverConfig-version.cmake
+-- Up-to-date: /home/orangepi/ros2_ws/install/imu_driver/share/imu_driver/package.xml
